@@ -1,5 +1,5 @@
-const API_BASE_URL = "http://localhost:8080/api/emergency";
-const ADMIN_BASE_URL = "http://localhost:8080/api/admin";
+const API_BASE_URL = "https://emergency-alert-system-production-a700.up.railway.app/api/emergency";
+const ADMIN_BASE_URL = "https://emergency-alert-system-production-a700.up.railway.app/api/admin";
 
 const readErrorMessage = async (response) => {
   let message = `Request failed with status ${response.status}`;
